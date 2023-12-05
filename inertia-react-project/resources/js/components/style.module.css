@@ -1,0 +1,26 @@
+.card{
+    border: 2px solid rgb(174, 174, 174);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.selected {
+    border: 2px solid rgb(3, 3, 16);
+    background-color: rgb(225, 223, 223);
+  }
+
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(225, 223, 223);
+}
+
+.cardIcon{
+    background-color: green;
+    border-radius: 5px;
+}
